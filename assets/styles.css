@@ -452,3 +452,34 @@ footer .base{display:flex;justify-content:space-between;gap:20px;padding-top:28p
   .proc-timeline{grid-template-columns:1fr;gap:52px}
   .proc-copy{max-width:320px}
 }
+
+/* ============ mobile refinements (2026-07-06) — tighter sections, smaller cards, compact cookie bar ============ */
+@media(max-width:700px){
+  .sec,.svc,.process,.testi,.contact,.insights{padding:52px 0}
+  .sec-head{margin-bottom:32px}
+  .testi-head{margin-bottom:28px}
+  .insights .sec-head{margin-bottom:24px!important}
+  .proc-intro{margin-top:12px}
+  .proc-timeline{margin-top:32px}
+  .card-t{padding:26px}
+  .card-t .q{font-size:28px;margin-bottom:14px}
+  .card-svc{min-height:0;padding:24px}
+}
+@media(max-width:540px){
+  .wrap{padding:0 20px}
+  .card-post-img,.insights .card-post-img{aspect-ratio:16/9}
+  .card-post-body{padding:13px 16px 15px}
+  .card-post h4{font-size:15px}
+  .card-t{flex-basis:298px;padding:24px}
+  .card-t .tsum{font-size:15px}
+  .card-svc{flex-basis:264px}
+  .proc-timeline{gap:30px;margin-top:26px}
+  .proc-ghost{font-size:58px;top:-32px}
+  .proc-node{width:60px;height:60px}
+  .proc-node svg{width:26px;height:26px}
+  .proc-copy{margin-top:18px;max-width:300px}
+  .cookie-banner{left:10px;right:10px;bottom:10px;padding:14px 15px;gap:12px;border-radius:14px}
+  .cookie-text{font-size:12.5px;line-height:1.45;flex-basis:auto}
+  .cookie-btns{gap:8px}
+  .cookie-btn{flex:1;padding:10px 14px;font-size:13px}
+}
