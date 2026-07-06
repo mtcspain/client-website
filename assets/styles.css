@@ -483,3 +483,47 @@ footer .base{display:flex;justify-content:space-between;gap:20px;padding-top:28p
   .cookie-btns{gap:8px}
   .cookie-btn{flex:1;padding:10px 14px;font-size:13px}
 }
+
+/* ============ mobile refinements v3 (2026-07-06, Kenneth feedback) ============ */
+@media(max-width:700px){
+  /* header: keep the wordmark tidy, no awkward "Spain / Solicitors" break */
+  .brand{align-items:center}
+  .brand small{white-space:nowrap}
+
+  /* hero: more breathing room under the header + a readable, contained watermark */
+  .hero-grid{padding-top:104px}
+  .hero .ghost{font-size:clamp(52px,15vw,90px);top:72px;letter-spacing:0}
+
+  /* video headline: let it flow so no lone word is stranded on its own line */
+  .video-row h2{font-size:27px}
+  .video-row h2 br{display:none}
+
+  /* card rows are natively swipeable on touch, so drop the prev/next arrows */
+  .svc-nav{display:none}
+
+  /* testimonials: smaller and narrower cards */
+  .card-t{flex-basis:250px;padding:20px}
+  .card-t .q{font-size:24px;margin-bottom:10px}
+  .card-t .tsum{font-size:13.5px;margin-bottom:12px}
+  .card-t .tbody{gap:9px}
+  .card-t .tbody p{font-size:12.5px}
+  .card-t .who{margin-top:18px;padding-top:16px}
+  .card-t .av{width:40px;height:40px;font-size:12.5px}
+  .card-t .who b{font-size:12.5px}
+  .card-t .who span span{font-size:11px}
+}
+@media(max-width:420px){
+  .brand .word{font-size:19px}
+  .brand small{letter-spacing:.12em;font-size:9px}
+}
+
+/* blog cards: two-up on phones so more show at once, with tighter chrome */
+@media(max-width:560px){
+  .post-grid,.blog-grid{grid-template-columns:1fr 1fr;gap:12px}
+  .card-post-img,.insights .card-post-img{aspect-ratio:16/10}
+  .card-post-body{padding:10px 11px 12px}
+  .card-post .tag{font-size:8.5px;padding:4px 8px;margin-bottom:7px}
+  .card-post h4,.insights .card-post h4{font-size:12.5px;line-height:1.25}
+  .card-post .foot small{font-size:10.5px}
+  .card-post .foot .arr{width:26px;height:26px}
+}
