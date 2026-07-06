@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block thank-you and utility pages from indexing
+Disallow: /thank-you.html
+Disallow: /es/thank-you.html
+
+Sitemap: https://mtcspainlawyers.com/sitemap.xml

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<rect width="64" height="64" rx="14" fill="#0F1B23"/>
+<text x="29" y="40.5" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="20" fill="#C8A450" text-anchor="middle">MTC</text>
+<circle cx="48" cy="39.5" r="2.9" fill="#C8A450"/>
+</svg>
