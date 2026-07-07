@@ -5,6 +5,13 @@
   Permissions-Policy: geolocation=(), microphone=(), camera=()
   Strict-Transport-Security: max-age=31536000; includeSubDomains
 
-# Long cache for static assets
+# Long cache for static assets (images, fonts, JS) — these rarely change
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
+
+# Stylesheet: revalidate on every load so CSS edits ship WITHOUT a version bump.
+# (More specific path wins over /assets/* above.) The browser sends an ETag check
+# and gets a tiny 304 when unchanged, or the new file when it changed. This is why
+# future CSS tweaks are 1-2 file commits, not a site-wide ?v= bump.
+/assets/styles.css
+  Cache-Control: public, max-age=0, must-revalidate

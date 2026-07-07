@@ -419,7 +419,8 @@ footer .base{display:flex;justify-content:space-between;gap:20px;padding-top:28p
 .insights{background:var(--ink);padding:78px 0}
 .insights .sec-head{margin-bottom:34px!important}
 .insights .sec-head .sub{color:var(--mute-d)}
-.insights .post-grid{gap:22px}
+.insights .post-grid{grid-template-columns:repeat(4,1fr);gap:22px}
+@media(max-width:1060px){.insights .post-grid{grid-template-columns:1fr 1fr;gap:16px}}
 .insights .card-post-img{aspect-ratio:16/8}
 .insights .card-post-body{padding:14px 18px 16px}
 .insights .card-post h4{font-size:15.5px}
