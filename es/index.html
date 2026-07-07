@@ -113,11 +113,11 @@
       <p class="body" style="margin-top:20px;font-size:16.5px">Sin tecnicismos legales, sin discurso comercial. Un minuto, grabado en un juzgado español, para que decidas si quieres tenerme de tu lado.</p>
     </div>
     <div>
-      <div class="video-frame" id="videoFrame" data-id="ultycDOcJPw">
+      <div class="video-frame" id="videoFrame" data-src="../assets/video/how-a-spanish-courtroom-works.mp4">
         <img src="../assets/img/hero-classic-pose.jpg" alt="Manuel en un juzgado español, vista previa del vídeo">
         <div class="play"><span>▶</span></div>
       </div>
-      <p class="video-meta"><b>Cómo funciona un juzgado español</b> · 1 min · Inglés</p>
+      <p class="video-meta"><b>Cómo funciona un juzgado español</b> · 1,5 min · Inglés</p>
     </div>
   </div>
 </section>
@@ -541,7 +541,7 @@ mq.innerHTML+=mq.innerHTML;
 // video facade
 const vf=document.getElementById('videoFrame');
 vf.addEventListener('click',()=>{
-  vf.innerHTML='<iframe src="https://www.youtube.com/embed/'+vf.dataset.id+'?autoplay=1&rel=0" allow="autoplay; encrypted-media" allowfullscreen title="Un minuto con Manuel"></iframe>';
+  vf.innerHTML='<video src="'+vf.dataset.src+'" style="width:100%;display:block;aspect-ratio:16/9;background:#000" controls autoplay playsinline preload="metadata"></video>';
 },{once:true});
 // carousels
 function slider(trackId,prevId,nextId,step){
