@@ -59,7 +59,7 @@ header.site{position:sticky;top:0;z-index:80;background:rgba(15,27,35,.82);backd
 .brand{display:flex;align-items:baseline;gap:10px}
 .brand .word{font-family:"Unbounded",sans-serif;font-weight:600;font-size:21px;color:#fff;letter-spacing:.01em}
 .brand .word i{font-style:normal;color:var(--gold)}
-.brand small{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute-d)}
+.brand small{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute-d);white-space:nowrap}
 .menu{display:flex;gap:30px}
 .menu a{font-size:14px;font-weight:500;color:#C9D3DA;white-space:nowrap;position:relative;padding:4px 0}
 .menu a:hover{color:#fff}
