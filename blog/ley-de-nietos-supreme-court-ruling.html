@@ -6,6 +6,9 @@
 <title>Ley de Nietos: What the Supreme Court&#x27;s Ruling Actually Changes — MTC Spain Solicitors</title>
 <meta name="description" content="The Supreme Court has provisionally suspended the voting rights tied to some &#x27;Ley de Nietos&#x27; nationality grants. Here&#x27;s what changed and what didn&#x27;t.">
 <link rel="canonical" href="https://mtcspainlawyers.com/blog/ley-de-nietos-supreme-court-ruling.html">
+<link rel="alternate" hreflang="en" href="https://mtcspainsolicitors.com/blog/ley-de-nietos-supreme-court-ruling.html">
+<link rel="alternate" hreflang="es" href="https://mtcspainsolicitors.com/es/blog/ley-de-nietos-supreme-court-ruling.html">
+<link rel="alternate" hreflang="x-default" href="https://mtcspainsolicitors.com/blog/ley-de-nietos-supreme-court-ruling.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -52,7 +55,6 @@
       <div class="lang" id="lang" role="group" aria-label="Language">
         <button class="on" data-lang="en">EN</button>
         <button data-lang="es">ES</button>
-        <span class="lang-toast" id="langToast">Sorry, blog articles aren&#8217;t translated to Spanish yet</span>
       </div>
       <button class="burger" id="burger" aria-label="Menu">☰</button>
     </div>
@@ -163,13 +165,8 @@
 const burger=document.getElementById('burger'),menu=document.getElementById('menu');
 burger.addEventListener('click',()=>menu.classList.toggle('open'));
 const lang=document.getElementById('lang');
-const langToast=document.getElementById('langToast');
 lang.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{
-  if(b.dataset.lang==='es'){
-    langToast.classList.add('show');
-    clearTimeout(window._langToastT);
-    window._langToastT=setTimeout(()=>langToast.classList.remove('show'),2600);
-  }
+  if(b.dataset.lang==='es') window.location.href='../es/blog/ley-de-nietos-supreme-court-ruling.html';
 }));
 </script>
 <script src="../assets/consent.js" defer></script>

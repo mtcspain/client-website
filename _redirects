@@ -2,6 +2,10 @@
 https://mtcspainlawyers.com/*   https://mtcspainsolicitors.com/:splat   301!
 https://www.mtcspainlawyers.com/*   https://mtcspainsolicitors.com/:splat   301!
 
+# --- Domain-level redirect: old mtcspain.com domain -> new primary solicitors.com domain ---
+https://mtcspain.com/*   https://mtcspainsolicitors.com/:splat   301!
+https://www.mtcspain.com/*   https://mtcspainsolicitors.com/:splat   301!
+
 # --- Legacy Wix blog post redirects (301) ---
 # Applies only if the old domain (mtcspainsolicitors.com) is connected to this Netlify site.
 # Kept posts -> their new article; dropped posts -> the blog index.
