@@ -1,10 +1,9 @@
 /* MTC Spain Solicitors — cookie consent + GA4 (Google Consent Mode v2)
    Analytics is DENIED by default and only loads after the visitor clicks Accept.
-   To turn analytics on: replace GA_ID below with the real GA4 Measurement ID (G-XXXXXXXXXX).
-   Until then the banner works but no analytics is loaded. */
+   GA4 is live (real Measurement ID set 2026-09-10). */
 (function () {
-  var GA_ID = 'G-XXXXXXXXXX';                       // <-- replace with real GA4 ID
-  var GA_ENABLED = GA_ID.indexOf('XXXX') === -1;     // stays off while placeholder
+  var GA_ID = 'G-VRZXNSE14D';                       // real GA4 Measurement ID
+  var GA_ENABLED = true;                             // analytics is live
   var KEY = 'mtc_cookie_consent';
   var isES = (document.documentElement.lang || 'en').toLowerCase().indexOf('es') === 0;
 
