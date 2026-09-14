@@ -592,3 +592,46 @@ https://www.mtcspain.com/*   https://mtcspainsolicitors.com/:splat   301!
 # Old Wix blog index variants
 /blog-1    /blog/index.html    301
 /blog-feed.xml    /blog/index.html    301
+
+# --- Legacy Wix practice-area and site pages (301) ---
+# These are the URLs the 2022 Google Ads campaigns still point at.
+# Without them the ads land on a 404 and Google disapproves them.
+/lawyers-real-estate-law    /practice-real-estate.html    301
+/lawyers-family-law    /practice-family.html    301
+/lawyers-immigration-law    /practice-immigration.html    301
+/lawyers-soft-landing    /practice-immigration.html    301
+/lawyers-civil-law    /practice-civil.html    301
+/lawyers-criminal-law    /practice-criminal.html    301
+/lawyers-labor-law    /practice-labour.html    301
+/lawyers-temporary-redundancy    /practice-labour.html    301
+/lawyers-corporate-law    /practice-corporate.html    301
+/lawyers-investments-acquisitions    /practice-corporate.html    301
+/lawyers-tax-law    /practice-tax.html    301
+/lawyers-banking-law    /practice-banking.html    301
+/lawyers-bankruptcy-law    /practice-bankruptcy.html    301
+/lawyers-second-chance-law    /practice-bankruptcy.html    301
+/lawyers-administrative-law    /practice-administrative.html    301
+/lawyers-enviromental-law    /practice-environmental.html    301
+/lawyers-intellectual-property-law    /practice-intellectual-property.html    301
+/lawyers-international-law    /practice-international.html    301
+/lawyers-personal-injury-law    /practice-personal-injury.html    301
+/lawyers-sports-law    /practice-sports.html    301
+/lawyers-about-us    /index.html    301
+/lawyers-contact    /index.html    301
+/lawyers-request-callback    /index.html    301
+/lawyers-first-consultation    /index.html    301
+/lawyers-seo-digital-marketing-strat    /index.html    301
+/translations    /index.html    301
+
+# --- Legacy Wix legal and cookie pages (301) ---
+/lawyers-legal-advice-privacy-policy    /privacy.html    301
+/lawyers-aviso-legal-politica-privac    /es/legal.html    301
+/cookies-policy    /cookies.html    301
+/política-de-cookies    /es/cookies.html    301
+/pol%C3%ADtica-de-cookies    /es/cookies.html    301
+
+# --- Old Wix blog listing variants (301) ---
+/blog/categories/*    /blog/index.html    301
+/blog/page/*    /blog/index.html    301
+/blog/tags/*    /blog/index.html    301
+/blog/hashtags/*    /blog/index.html    301
