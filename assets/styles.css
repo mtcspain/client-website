@@ -278,6 +278,9 @@ footer p,footer a{font-size:14px;color:var(--mute-d);line-height:1.9}
 footer a:hover{color:var(--gold)}
 footer .colegiado{margin-top:16px;font-size:13px;color:var(--gold)}
 footer .base{display:flex;justify-content:space-between;gap:20px;padding-top:28px;font-size:12.5px;flex-wrap:wrap}
+footer .social{display:inline-flex;gap:12px;margin-left:16px;vertical-align:middle}
+footer .social a{line-height:1;opacity:.6;display:inline-flex}
+footer .social a:hover{opacity:1}
 
 /* ============ inner page ============ */
 .inner-hero{position:relative;background:
