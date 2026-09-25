@@ -623,6 +623,14 @@ https://www.mtcspain.com/*   https://mtcspainsolicitors.com/:splat   301!
 /lawyers-seo-digital-marketing-strat    /index.html    301
 /translations    /index.html    301
 
+# --- Spanish (/es/) variants of legacy Wix pages (301) ---
+# Google Ads sitelink "Contact Us" (English Speaking Lawyers) points at /es/lawyers-contact.
+/es/lawyers-contact    /es/index.html#contact    301
+/es/lawyers-about-us    /es/index.html    301
+/es/lawyers-request-callback    /es/index.html#contact    301
+/es/lawyers-first-consultation    /es/index.html#contact    301
+/es/lawyers-soft-landing    /es/practice-immigration.html    301
+
 # --- Legacy Wix legal and cookie pages (301) ---
 /lawyers-legal-advice-privacy-policy    /privacy.html    301
 /lawyers-aviso-legal-politica-privac    /es/legal.html    301
