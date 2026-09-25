@@ -317,6 +317,7 @@ footer .social a:hover{opacity:1}
 .article-body h3{font-size:22px;color:var(--ink);margin:40px 0 16px}
 .article-body ul,.article-body ol{margin:0 0 22px;padding-left:22px;color:var(--body);font-size:16.5px}
 .article-body li{margin-bottom:10px}
+@media (min-width:640px){.article-body p,.article-body li{text-align:justify;-webkit-hyphens:auto;hyphens:auto}}
 .article-meta{display:flex;gap:14px;align-items:center;color:var(--mute-d);font-size:13px;margin-top:8px}
 .article-meta .dot{width:4px;height:4px;border-radius:50%;background:var(--mute-d)}
 .article-cta{margin-top:56px;background:var(--ink);border-radius:26px;padding:38px 40px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
