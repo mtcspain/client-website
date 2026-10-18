@@ -630,6 +630,8 @@ https://www.mtcspain.com/*   https://mtcspainsolicitors.com/:splat   301!
 /es/lawyers-request-callback    /es/index.html#contact    301
 /es/lawyers-first-consultation    /es/index.html#contact    301
 /es/lawyers-soft-landing    /es/practice-immigration.html    301
+/es/blog    /blog/index.html    301
+/es/blog/    /blog/index.html    301
 
 # --- Legacy Wix legal and cookie pages (301) ---
 /lawyers-legal-advice-privacy-policy    /privacy.html    301
